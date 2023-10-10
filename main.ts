@@ -45,21 +45,3 @@ controller.moveSprite(sacha)
 scene.cameraFollowSprite(sacha)
 sacha.setBounceOnWall(true)
 sacha.setPosition(575, 920)
-let mySprite = sprites.create(img`
-    . . . . 3 . . . . . . . . . . 
-    . . . . . 3 3 . . 3 . . . . . 
-    . . . . . . 3 3 3 . . . . . . 
-    . . . . 8 8 8 8 8 8 8 . . . . 
-    . . 8 8 8 8 8 8 8 8 8 8 8 . . 
-    . 3 3 3 3 8 8 8 8 8 3 3 3 3 . 
-    3 9 9 9 9 3 8 8 8 3 9 9 9 9 3 
-    9 c c 8 8 9 3 8 3 9 8 8 c c 9 
-    c 8 8 1 1 8 9 3 9 8 1 1 8 8 c 
-    a 8 1 9 f 1 8 9 8 1 9 f 1 8 a 
-    a 8 1 f f 1 8 c 8 1 f f 1 8 a 
-    a a 8 1 1 8 c 9 c 8 1 1 8 a a 
-    a a a 8 8 a a a a a 8 8 a a a 
-    a a a a a a a a a a a a a a a 
-    8 a 8 a 8 a 8 a 8 a 8 a 8 a 8 
-    . 8 . 8 . 8 . 8 . 8 . 8 . 8 . 
-    `, SpriteKind.Food)
