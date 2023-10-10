@@ -1,9 +1,12 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile13`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level2`)
+    sacha.setStayInScreen(true)
+    sacha.setBounceOnWall(true)
 })
+let sacha: Sprite = null
 tiles.setCurrentTilemap(tilemap`niveau1`)
 scene.setBackgroundColor(7)
-let sacha = sprites.create(img`
+sacha = sprites.create(img`
     ........................
     ........................
     ........................
