@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAADMzGZmiIiIiMzMZmaIiIiIzMxmZoiIiIjMzGZmiIiIiMzMZmbMzGZmzMxmZszMZmbMzGZmzMxmZszMZmbMzGZmzMzu7u7u7u7MzO7u7u7u7szM7u7u7u7uzMzu7u7u7u7MzO7uRERERMzM7u5EREREzMzu7kRERETMzO7uRERERA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "teleportation"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
